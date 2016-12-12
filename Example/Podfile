@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GSKeychainKit_Example' do
+  pod 'GSKeychainKit', :path => '../'
+
+  target 'GSKeychainKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
