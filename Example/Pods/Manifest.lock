@@ -1,0 +1,16 @@
+PODS:
+  - GSKeychainKit (0.1.0)
+
+DEPENDENCIES:
+  - GSKeychainKit (from `../`)
+
+EXTERNAL SOURCES:
+  GSKeychainKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GSKeychainKit: c72b0894b2ed961ed944ab3bcdb792d59f17cad0
+
+PODFILE CHECKSUM: 6c88ab15337945d8f5c988c814c59b839cdc3ca6
+
+COCOAPODS: 1.1.1

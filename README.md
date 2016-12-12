@@ -22,7 +22,7 @@ pod "GSKeychainKit"
 
 ## Author
 
-shenlong, shenlong@mobanker.com
+ruizuo007, ruizuo007@gmail.com
 
 ## License
 
