@@ -1,9 +1,9 @@
 {
   "name": "GSKeychainKit",
   "version": "0.1.0",
-  "summary": "A short description of GSKeychainKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/GSKeychainKit",
+  "summary": "GSKeychainKit.",
+  "description": "A convenient and fast tool for using iOS keychain",
+  "homepage": "https://github.com/ruizuo007/GSKeychainKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "shenlong": "shenlong@mobanker.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/GSKeychainKit.git",
+    "git": "https://github.com/ruizuo007/GSKeychainKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "GSKeychainKit/Classes/**/*"
 }

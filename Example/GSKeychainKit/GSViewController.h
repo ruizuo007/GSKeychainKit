@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface GSViewController : UIViewController
+@interface GSViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
 
 @end

@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021E9C9780E3D7FA11FC3C907B0B8D21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		22FEECCBEDD7939C1C062D8BD4C7E460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		389F06772C609611D33EC25BA87AB3E2 /* Pods-GSKeychainKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25607A6DCFB490CB030F413CA3B452B4 /* Pods-GSKeychainKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7206586891E1FC9E0582319E90D221DE /* GSKeychainKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B85BA86D3829CEA5E27F6CEBEF2FAF06 /* GSKeychainKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A9DA03E084F83E80AD29983248CB1E1 /* GSKeychainKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B85BA86D3829CEA5E27F6CEBEF2FAF06 /* GSKeychainKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		959E3ED406D62196152BF5331F55CB71 /* Pods-GSKeychainKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3870B7998B48E4E8740EAEBD6A068E5C /* Pods-GSKeychainKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC8365C74709F2C3069418F7519C9E5B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6460327EA9F549E93F8B45AD6AB303 /* ReplaceMe.m */; };
-		C24098A220FFA7034ABF9B335FAC03AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B088FEFE10AE00FDE1D03F3DBEF74125 /* GSKeychainKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D40DC420C0FC16E1E9710400379F154F /* GSKeychainKit-dummy.m */; };
+		CD9540CD95DACD468C53D49E59B16517 /* GSKeychainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CEF5BA42BA93279A6AFD47D72A02F9 /* GSKeychainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0190F5234F90F3066AF754C418DA25 /* GSKeychainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0839ABEA3ECAD8D2E99A4282E001B1 /* GSKeychainStore.m */; };
 		EBD4B5574B6D7469DC40B26DE28CE3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F0CB88B74CB439C2A9913BF4DF1A8DA5 /* GSKeychainKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D40DC420C0FC16E1E9710400379F154F /* GSKeychainKit-dummy.m */; };
 		F2BDFD87BEC0C296478AE5C18AC21D20 /* Pods-GSKeychainKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB7069EA78D80D6D0ABD2363639491C /* Pods-GSKeychainKit_Example-dummy.m */; };
 		FAE30FCB0A3EDB237CEE45C5306C4CCE /* Pods-GSKeychainKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88FB76C2DB6C675464162F0AA2EA62 /* Pods-GSKeychainKit_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 610C7AC34B7CB4DC7834FE0887149A05;
+			remoteGlobalIDString = 349B0615CF690A053EA41F69BEBD0E65;
 			remoteInfo = GSKeychainKit;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,32 +35,33 @@
 		2B7600ABB76DE1B875D78844C8A4EF08 /* Pods-GSKeychainKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSKeychainKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3870B7998B48E4E8740EAEBD6A068E5C /* Pods-GSKeychainKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSKeychainKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		3B88FB76C2DB6C675464162F0AA2EA62 /* Pods-GSKeychainKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSKeychainKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		40BF52F0A57AD2C80A2F2A1601E7EB53 /* Pods_GSKeychainKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSKeychainKit_Tests.framework; path = "Pods-GSKeychainKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BF52F0A57AD2C80A2F2A1601E7EB53 /* Pods_GSKeychainKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSKeychainKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0839ABEA3ECAD8D2E99A4282E001B1 /* GSKeychainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GSKeychainStore.m; sourceTree = "<group>"; };
+		61CEF5BA42BA93279A6AFD47D72A02F9 /* GSKeychainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSKeychainStore.h; sourceTree = "<group>"; };
 		65F738159031E59B1C8F3928D68AFA00 /* Pods-GSKeychainKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSKeychainKit_Example-resources.sh"; sourceTree = "<group>"; };
 		70168A33A80EB9DA6F3FDFFB288334A8 /* Pods-GSKeychainKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSKeychainKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		707E3CD995E3B8590599435D9E6D45F9 /* GSKeychainKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GSKeychainKit.modulemap; sourceTree = "<group>"; };
+		707E3CD995E3B8590599435D9E6D45F9 /* GSKeychainKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GSKeychainKit.modulemap; sourceTree = "<group>"; };
 		74A3CD350FE22D895DD250F4A55981D7 /* Pods-GSKeychainKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSKeychainKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		784A3D19449370F9B279C3067FCC267B /* Pods-GSKeychainKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSKeychainKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		78CA6F1727ACE81B673178F409B985EA /* Pods-GSKeychainKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSKeychainKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		796E1BE77103B970D65E46EFDB7969F3 /* GSKeychainKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSKeychainKit-prefix.pch"; sourceTree = "<group>"; };
 		8465C9D62FA61513DA59A60D9F4204FC /* Pods-GSKeychainKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSKeychainKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		91A3DE1BB8609C2388C441AE240A5099 /* Pods-GSKeychainKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSKeychainKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2D1EF67FB62473BAEA46CC945A92A05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B85BA86D3829CEA5E27F6CEBEF2FAF06 /* GSKeychainKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSKeychainKit-umbrella.h"; sourceTree = "<group>"; };
-		BF6460327EA9F549E93F8B45AD6AB303 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		C41C6E63F3084AD1A9AC834AE79BBAD5 /* Pods-GSKeychainKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSKeychainKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C7E7433FDC80E2F21FD30A65684C0321 /* Pods_GSKeychainKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSKeychainKit_Example.framework; path = "Pods-GSKeychainKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E7433FDC80E2F21FD30A65684C0321 /* Pods_GSKeychainKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSKeychainKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB7069EA78D80D6D0ABD2363639491C /* Pods-GSKeychainKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSKeychainKit_Example-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D40DC420C0FC16E1E9710400379F154F /* GSKeychainKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSKeychainKit-dummy.m"; sourceTree = "<group>"; };
 		D624650B26276792C55373637303A3C0 /* GSKeychainKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSKeychainKit.xcconfig; sourceTree = "<group>"; };
 		D64204118456ABC1CA37A51A99273F63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD72879AE32038132EB23E34E12FA7FF /* GSKeychainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSKeychainKit.framework; path = GSKeychainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD72879AE32038132EB23E34E12FA7FF /* GSKeychainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSKeychainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA180687E3B705D11D41FD281D21A9A /* Pods-GSKeychainKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSKeychainKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED80889FFE146A66AD35C6BE8C58954B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2A30A57AC1037A772B148C3E82BEF66 /* Pods-GSKeychainKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GSKeychainKit_Example.modulemap"; sourceTree = "<group>"; };
-		F7EB0BB2BB4F5A0CC1717E5A32F99FFD /* Pods-GSKeychainKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GSKeychainKit_Tests.modulemap"; sourceTree = "<group>"; };
+		F2A30A57AC1037A772B148C3E82BEF66 /* Pods-GSKeychainKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GSKeychainKit_Example.modulemap"; sourceTree = "<group>"; };
+		F7EB0BB2BB4F5A0CC1717E5A32F99FFD /* Pods-GSKeychainKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GSKeychainKit_Tests.modulemap"; sourceTree = "<group>"; };
 		F8DC9565220A475482B6D930B9B2EB1A /* Pods-GSKeychainKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSKeychainKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FA9C712E77036F54B814BCA56888964E /* Pods-GSKeychainKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSKeychainKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,11 +75,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E51B605E62803E62F3F39E637051575B /* Frameworks */ = {
+		3F1335CC2F78B8CC75F4042D4BA7CC39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24098A220FFA7034ABF9B335FAC03AD /* Foundation.framework in Frameworks */,
+				021E9C9780E3D7FA11FC3C907B0B8D21 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +127,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		8FE0703E921EF66AA1BAE802F012AEC3 /* GSKeychainKit */ = {
+			isa = PBXGroup;
+			children = (
+				F292382B0B56860739A98A693D71E397 /* Classes */,
+			);
+			path = GSKeychainKit;
+			sourceTree = "<group>";
+		};
 		9184DBC66BAB3AA1CE7EA13884511E60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +148,7 @@
 		9C3963F8BC96DCA3B7A737A247A63AE7 /* GSKeychainKit */ = {
 			isa = PBXGroup;
 			children = (
-				C79BA98ECFDA177C0AB01BC878E1D6AC /* GSKeychainKit */,
+				8FE0703E921EF66AA1BAE802F012AEC3 /* GSKeychainKit */,
 				3AF8E192F4FED4BCA4B522350894B3B7 /* Support Files */,
 			);
 			name = GSKeychainKit;
@@ -151,15 +161,6 @@
 				9C3963F8BC96DCA3B7A737A247A63AE7 /* GSKeychainKit */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A19FDAD11CEC9616AAD46BA516650410 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BF6460327EA9F549E93F8B45AD6AB303 /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -188,15 +189,6 @@
 			path = "Target Support Files/Pods-GSKeychainKit_Example";
 			sourceTree = "<group>";
 		};
-		C79BA98ECFDA177C0AB01BC878E1D6AC /* GSKeychainKit */ = {
-			isa = PBXGroup;
-			children = (
-				A19FDAD11CEC9616AAD46BA516650410 /* Classes */,
-			);
-			name = GSKeychainKit;
-			path = GSKeychainKit;
-			sourceTree = "<group>";
-		};
 		EBAF0245428E759C9B610FF59DC16BB5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +196,15 @@
 				F71045018398E074DE8DE540E629AAA1 /* Pods-GSKeychainKit_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F292382B0B56860739A98A693D71E397 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				61CEF5BA42BA93279A6AFD47D72A02F9 /* GSKeychainStore.h */,
+				5E0839ABEA3ECAD8D2E99A4282E001B1 /* GSKeychainStore.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F71045018398E074DE8DE540E629AAA1 /* Pods-GSKeychainKit_Tests */ = {
@@ -235,11 +236,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24CACBA730EBBD512E1C3AE6E4B6A8D0 /* Headers */ = {
+		11C1586D1751A874BEDAEE7BBB729FDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7206586891E1FC9E0582319E90D221DE /* GSKeychainKit-umbrella.h in Headers */,
+				5A9DA03E084F83E80AD29983248CB1E1 /* GSKeychainKit-umbrella.h in Headers */,
+				CD9540CD95DACD468C53D49E59B16517 /* GSKeychainStore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +256,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		349B0615CF690A053EA41F69BEBD0E65 /* GSKeychainKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F87C25EEEF1366CEBCA49D4F433FB48 /* Build configuration list for PBXNativeTarget "GSKeychainKit" */;
+			buildPhases = (
+				C9C09F2C54A728531FEC458C0C7ECD64 /* Sources */,
+				3F1335CC2F78B8CC75F4042D4BA7CC39 /* Frameworks */,
+				11C1586D1751A874BEDAEE7BBB729FDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSKeychainKit;
+			productName = GSKeychainKit;
+			productReference = DD72879AE32038132EB23E34E12FA7FF /* GSKeychainKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5A8AA6355BE8203260B835F061366423 /* Pods-GSKeychainKit_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0AC0A1D7053B1713DF196FC82B4B3F0 /* Build configuration list for PBXNativeTarget "Pods-GSKeychainKit_Tests" */;
@@ -269,23 +288,6 @@
 			name = "Pods-GSKeychainKit_Tests";
 			productName = "Pods-GSKeychainKit_Tests";
 			productReference = 40BF52F0A57AD2C80A2F2A1601E7EB53 /* Pods_GSKeychainKit_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		610C7AC34B7CB4DC7834FE0887149A05 /* GSKeychainKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63ECCABEB49CD5854209E1CA86083EB5 /* Build configuration list for PBXNativeTarget "GSKeychainKit" */;
-			buildPhases = (
-				3E78147268FDE3B2D6E6931494B07694 /* Sources */,
-				E51B605E62803E62F3F39E637051575B /* Frameworks */,
-				24CACBA730EBBD512E1C3AE6E4B6A8D0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GSKeychainKit;
-			productName = GSKeychainKit;
-			productReference = DD72879AE32038132EB23E34E12FA7FF /* GSKeychainKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		64101397319FEE27AE2A960F16556F2A /* Pods-GSKeychainKit_Example */ = {
@@ -327,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				610C7AC34B7CB4DC7834FE0887149A05 /* GSKeychainKit */,
+				349B0615CF690A053EA41F69BEBD0E65 /* GSKeychainKit */,
 				64101397319FEE27AE2A960F16556F2A /* Pods-GSKeychainKit_Example */,
 				5A8AA6355BE8203260B835F061366423 /* Pods-GSKeychainKit_Tests */,
 			);
@@ -351,12 +353,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E78147268FDE3B2D6E6931494B07694 /* Sources */ = {
+		C9C09F2C54A728531FEC458C0C7ECD64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0CB88B74CB439C2A9913BF4DF1A8DA5 /* GSKeychainKit-dummy.m in Sources */,
-				AC8365C74709F2C3069418F7519C9E5B /* ReplaceMe.m in Sources */,
+				B088FEFE10AE00FDE1D03F3DBEF74125 /* GSKeychainKit-dummy.m in Sources */,
+				CE0190F5234F90F3066AF754C418DA25 /* GSKeychainStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,13 +368,44 @@
 		68B40D8586D755507E9FBB30E742CC88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GSKeychainKit;
-			target = 610C7AC34B7CB4DC7834FE0887149A05 /* GSKeychainKit */;
+			target = 349B0615CF690A053EA41F69BEBD0E65 /* GSKeychainKit */;
 			targetProxy = F866FD9EC71354A6B1A88161E9B3C5FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CAA3AC554C2A9F8B7E1D23DD5A6DCA6 /* Debug */ = {
+		0145A1290933184AC091C099D4420EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D624650B26276792C55373637303A3C0 /* GSKeychainKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GSKeychainKit/GSKeychainKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSKeychainKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSKeychainKit/GSKeychainKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GSKeychainKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F22429DF05DFE26BBE7FF76231F6C9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8DC9565220A475482B6D930B9B2EB1A /* Pods-GSKeychainKit_Example.debug.xcconfig */;
 			buildSettings = {
@@ -389,7 +422,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-GSKeychainKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GSKeychainKit_Example/Pods-GSKeychainKit_Example.modulemap";
@@ -407,7 +440,73 @@
 			};
 			name = Debug;
 		};
-		8BDFAFC8F72665CF3EB878F24BBAA7F2 /* Release */ = {
+		25752F45018BDD90982C613F563D384B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D624650B26276792C55373637303A3C0 /* GSKeychainKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GSKeychainKit/GSKeychainKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSKeychainKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSKeychainKit/GSKeychainKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GSKeychainKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D672A8F180D4DEABB604657DA57F322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CA6F1727ACE81B673178F409B985EA /* Pods-GSKeychainKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GSKeychainKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSKeychainKit_Tests/Pods-GSKeychainKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GSKeychainKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6ED7262130A11A31726527F291597D64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70168A33A80EB9DA6F3FDFFB288334A8 /* Pods-GSKeychainKit_Tests.release.xcconfig */;
 			buildSettings = {
@@ -424,7 +523,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-GSKeychainKit_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GSKeychainKit_Tests/Pods-GSKeychainKit_Tests.modulemap";
@@ -442,7 +541,7 @@
 			};
 			name = Release;
 		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -474,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -482,7 +581,42 @@
 			};
 			name = Release;
 		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		8A59100F499C64BEFE60E0680796B239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41C6E63F3084AD1A9AC834AE79BBAD5 /* Pods-GSKeychainKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GSKeychainKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSKeychainKit_Example/Pods-GSKeychainKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GSKeychainKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -518,7 +652,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -526,155 +660,23 @@
 			};
 			name = Debug;
 		};
-		A1C09A36C30BC1335D194FEDC55A2C46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C41C6E63F3084AD1A9AC834AE79BBAD5 /* Pods-GSKeychainKit_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GSKeychainKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GSKeychainKit_Example/Pods-GSKeychainKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GSKeychainKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B93D4CF5BF0A1290558F821D553903F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D624650B26276792C55373637303A3C0 /* GSKeychainKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GSKeychainKit/GSKeychainKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GSKeychainKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GSKeychainKit/GSKeychainKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GSKeychainKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B9455817A5D53CE33AD60E8BD8560D80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78CA6F1727ACE81B673178F409B985EA /* Pods-GSKeychainKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GSKeychainKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GSKeychainKit_Tests/Pods-GSKeychainKit_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GSKeychainKit_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F395C756F5094B555AC39959C4D772EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D624650B26276792C55373637303A3C0 /* GSKeychainKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GSKeychainKit/GSKeychainKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GSKeychainKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GSKeychainKit/GSKeychainKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GSKeychainKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		1F87C25EEEF1366CEBCA49D4F433FB48 /* Build configuration list for PBXNativeTarget "GSKeychainKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				25752F45018BDD90982C613F563D384B /* Debug */,
+				0145A1290933184AC091C099D4420EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63ECCABEB49CD5854209E1CA86083EB5 /* Build configuration list for PBXNativeTarget "GSKeychainKit" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F395C756F5094B555AC39959C4D772EB /* Debug */,
-				B93D4CF5BF0A1290558F821D553903F3 /* Release */,
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -682,8 +684,8 @@
 		6676B69281943509149AAC52963671A4 /* Build configuration list for PBXNativeTarget "Pods-GSKeychainKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CAA3AC554C2A9F8B7E1D23DD5A6DCA6 /* Debug */,
-				A1C09A36C30BC1335D194FEDC55A2C46 /* Release */,
+				0F22429DF05DFE26BBE7FF76231F6C9C /* Debug */,
+				8A59100F499C64BEFE60E0680796B239 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -691,8 +693,8 @@
 		A0AC0A1D7053B1713DF196FC82B4B3F0 /* Build configuration list for PBXNativeTarget "Pods-GSKeychainKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9455817A5D53CE33AD60E8BD8560D80 /* Debug */,
-				8BDFAFC8F72665CF3EB878F24BBAA7F2 /* Release */,
+				2D672A8F180D4DEABB604657DA57F322 /* Debug */,
+				6ED7262130A11A31726527F291597D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
