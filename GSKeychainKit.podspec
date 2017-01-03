@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSKeychainKit'
-  s.version          = '0.1.0'
-  s.summary          = 'GSKeychainKit.'
+  s.version          = '0.1.1'
+  s.summary          = 'A convenient and fast tool for using iOS keychain.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ruizuo007/GSKeychainKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shenlong' => 'shenlong@mobanker.com' }
+  s.author           = { 'ruizuo007' => 'ruizuo007@gmail.com' }
   s.source           = { :git => 'https://github.com/ruizuo007/GSKeychainKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/ruizuo007'
 
   s.ios.deployment_target = '7.0'
 
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'GSKeychainKit' => ['GSKeychainKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'GSKeychainKit/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
